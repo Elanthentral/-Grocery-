@@ -1,0 +1,17 @@
+
+$clr-dark: 0 0% 0%;
+.nav-link{ --bs-nav-link-font-weight: 400;}
+@media (min-width:55em){
+    .navbar{
+        font-size: 20px;
+    }
+    
+    .nav-link{ --bs-nav-link-font-weight: 400;
+        --bs-nav-link-font-size:20px;
+        --bs-nav-link-color: hsl($clr-dark);
+        --bs-navbar-active-color: hsl($clr-dark);
+      }
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="./css/style.scss" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Grocery</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid px-lg-5">
+          <img
+            src="../src/assets/images/burger.png "
+            class="img-fluid icon me-lg-3 burger"
+          />
+          <div class="nav-left">
+            <!-- <div class="d-flex align-items-center gap-2 "> -->
+            <img src="./assets/images/mmdicon.png" class="img-fluid icon1" />
+            <p class="text-corel text-nowrap">Make My Deals</p>
+            <!-- </div> -->
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <img src="./assets/images/burger.png" class="img-fluid icon"
+            /></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-xl-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active px-xl-4 text-nowrap"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-4 text-nowrap" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-4 text-nowrap" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-4 text-nowrap" href="#"
+                  >Help & Support</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-xl-4 text-nowrap" href="#"
+                  >My Cart <img src="./assets/images/cart.png" class=""
+                /></a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center ps-xl-4 gap-1">
+              <div>
+                <a class="nav-link line-height-1 text-lg-end" href="#">Name </a>
+                <small class="text-nowrap">User Name</small>
+              </div>
+              <a href="#">
+                <img src="./assets/images/people-icon.png" class="icon1"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="search container-fluid px-lg-5">
+      <div class="input-group">
+        <span class="input-group-text bg-white border-0" id="basic-addon1"
+          ><img src="../src/assets/images/search.png" class="icon"
+        /></span>
+
+        <input
+          type="text"
+          class="form-control border-0 formcontrol"
+          placeholder="search"
+          aria-label="Search"
+          aria-describedby="basic-addon1"
+        />
+        <span class="input-group-text bg-white border-0" id="basic-addon1"
+          ><img src="../src/assets/images/burger.png" class="icon"
+        /></span>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="">
+        <img src="../src/assets/images/banner.png" class="w-100" />
+      </div>
+    </section>
+    <div class="container">
+      <div class="offer-container">
+        <div class="offer-circle">
+          <a class="offers">
+            <img
+              src="../src/assets/images/offer/free-ship.png"
+              class="offer-icon"
+          /></a>
+          <p class="text-wrap">Free shipping</p>
+        </div>
+        <div class="offer-circle">
+          <a class="offers">
+            <img
+              src="../src/assets/images/offer/gurante.png"
+              class="offer-icon"
+            />
+          </a>
+          <p class="text-wrap">Best Price Guarantee</p>
+        </div>
+        <div class="offer-circle">
+          <a class="offers">
+            <img
+              src="../src/assets/images/offer/pickup.png"
+              class="offer-icon"
+            />
+          </a>
+          <p class="text-wrap">Free Curbside Pickup</p>
+        </div>
+        <div class="offer-circle">
+          <a class="offers">
+            <img
+              src="../src/assets/images/offer/support.png"
+              class="offer-icon"
+            />
+          </a>
+          <p class="text-wrap">Support 24/7</p>
+        </div>
+      </div>
+    </div>
+    <section class="product-caro bg-white py-5">
+      <div class="">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active caro1-slider">
+              <div class="container">
+                <div
+                  class="row justify-content-between flex-nowrap text-center"
+                >
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/gro.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Grocery & <br />Staples</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/celebration.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Celebrations</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/fresh.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">
+                      Fresh & Frozen <br />
+                      Food
+                    </p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/dairy.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Dairy & Bakery <br />Products</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/oil.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Oil & Ghee</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/personal.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Personal Care</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/snacks.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Snacks</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/house.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Household <br />Items</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item flex-nowrap overflow-auto caro1-slider">
+              <div class="container">
+                <div
+                  class="row justify-content-between flex-nowrap text-center"
+                >
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/gro.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Grocery & <br />Staples</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/celebration.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Celebrations</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/fresh.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">
+                      Fresh & <br />
+                      Frozen Food
+                    </p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/dairy.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Dairy & Bakery <br />Products</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/oil.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Oil & Ghee</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/personal.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Personal Care</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/snacks.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Snacks</p>
+                  </div>
+                  <div
+                    class="col-4 col-md-3 col-lg-1 col-xl-1 d-flex align-items-center flex-column"
+                  >
+                    <img
+                      src="../src/assets/images/caro1/house.png"
+                      class="caro-img"
+                      alt="..."
+                    />
+                    <p class="text-nowrap">Household <br />Items</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon caro1-prev"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon caro1-next"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="product-card">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active flex-nowrap overflow-auto caro1-slider"
+            >
+              <div
+                class="row align-items-center justify-content-center flex-nowrap"
+              >
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card2.png" />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card3.png" />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card1.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item flex-nowrap overflow-auto caro1-slider">
+              <div
+                class="row align-items-center justify-content-center flex-nowrap"
+              >
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card2.png" />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card3.png" />
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="p-card">
+                    <img src="../src/assets/images/pro-card/pro-card1.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dairy">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Dairy Products</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/amul.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/mother.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-3.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-4.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-5.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-6.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-9.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="dairy-card">
+              <div class="dairy-card-top">
+                <img src="../src/assets/images/dairy/dairy-5.png" />
+              </div>
+              <div class="dairy-card-footer">
+                <div class="d-flex justify-content-between">
+                  <p>Mother Dairy Classic Curd</p>
+                  <p>1l</p>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <p>₹220</p>
+                  <img src="../src/assets/images/dairy/heart.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="best-offer">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Best Offers</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-1.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-2.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-3.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-4.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-6.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-7.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-8.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-4.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="house-hold">
+      <div class="container-fluid">
+        <div class="pt-20">
+          <h4>Household Items</h4>
+        </div>
+        <div class="household-container">
+          <img src="../src/assets/images/house-hold/beverages.png" />
+          <img src="../src/assets/images/house-hold/celebrations.png" />
+          <img src="../src/assets/images/house-hold/frozen.png" />
+          <img src="../src/assets/images/house-hold/grocery.png" />
+          <img src="../src/assets/images/house-hold/house-1.png" />
+          <img src="../src/assets/images/house-hold/house-2.png" />
+          <img src="../src/assets/images/house-hold/househols.png" />
+          <img src="../src/assets/images/house-hold/personal-care.png" />
+        </div>
+      </div>
+    </section>
+    <section class="house-hold-2">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-3 col-lg-4">
+            <img
+              src="../src/assets/images/house2/house-big.png"
+              class="w-100"
+            />
+          </div>
+          <div class="col-12 col-md-12 col-lg-7 col-lg-8">
+            <div class="house-2-container">
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-3.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-4.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-5.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-6.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-7.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-8.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-9.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-10.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-11.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dairy-card">
+                <div class="dairy-card-top">
+                  <img src="../src/assets/images/house2/house-12.png" />
+                </div>
+                <div class="dairy-card-footer">
+                  <div class="d-flex justify-content-between">
+                    <p>Mother Dairy Classic Curd</p>
+                    <p>1l</p>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <p>₹220</p>
+                    <img src="../src/assets/images/dairy/heart.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="container-fluid">
+        <div class="">
+          <h4>Household Items</h4>
+        </div>
+        <div class="dis-container mt-3">
+          <div class="row gy-3">
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-1.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-2.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-1.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-4.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-5.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-4 col-lg-2">
+              <img
+                src="../src/assets/images/discount/dis-6.svg"
+                class="img-fluid w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="snacks">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Snacks & Frozen Food</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-1.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-2.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-3.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-4.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-5.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-6.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-7.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-8.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-9.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-10.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-11.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-12.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-13.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-14.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-15.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-16.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="snack-big-pic">
+      <div class="container-fluid">
+        <div class="row gy-4">
+          <div class="col-12 col-md-6">
+            <img
+              src="../src/assets/images/snacks/rec-1.svg"
+              class="img-fluid w-100"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="../src/assets/images/snacks/rec-2.svg"
+              class="img-fluid w-100"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="../src/assets/images/snacks/rec-3.svg"
+              class="img-fluid w-100"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="../src/assets/images/snacks/rec-4.svg"
+              class="img-fluid w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catergories bg-white">
+      <div class="container-fluid">
+        <div class="pt-20">
+          <h4>Personal Care Categories</h4>
+        </div>
+        <div class="household-container">
+          <img src="../src/assets/images/categories/beverages.svg" />
+          <img src="../src/assets/images/categories/celebrations.svg" />
+          <img src="../src/assets/images/categories/Dairy.svg" />
+          <img src="../src/assets/images/categories/frozen.svg" />
+          <img src="../src/assets/images/categories/grocery.svg" />
+          <img src="../src/assets/images/categories/househols.svg" />
+          <img src="../src/assets/images/categories/personal.svg" />
+          <img src="../src/assets/images/categories/sugar.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="Personal-care-Products">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Personal care Products</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-1.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-2.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-3.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-4.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-5.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-6.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-7.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-8.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-9.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-10.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-11.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-12.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-13.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-14.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-16.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/care/care-17.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="door-delivery">
+      <div class="container-fluid">
+        <img
+          src="../src/assets/images/snacks/deleiver.svg"
+          class="img-fluid w-100"
+        />
+      </div>
+    </section>
+    <section class="discount">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Discount Up To 30%</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/amul.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/mother.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-3.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-4.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-5.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-6.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-9.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/dairy/dairy-5.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="best-offer">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Best Offers</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-1.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-2.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-3.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-4.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-6.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-7.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-8.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/best-offer/best-4.png" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Snacks-Best-Price">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Snacks At Best Price</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-9.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-10.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-11.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-12.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-13.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-14.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-15.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-16.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="snacks">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4>Snacks & Frozen Food</h4>
+          <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="d-card-container card-container mt-3">
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-1.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-2.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-3.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-4.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-5.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-6.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-7.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="dairy-card">
+            <div class="dairy-card-top">
+              <img src="../src/assets/images/snacks/snack-8.svg" />
+            </div>
+            <div class="dairy-card-footer">
+              <div class="d-flex justify-content-between">
+                <p>Mother Dairy Classic Curd</p>
+                <p>1l</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <p>₹220</p>
+                <img src="../src/assets/images/dairy/heart.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid px-2 bg-white">
+        <div class="footer-container">
+          <div
+            class="logo-left d-flex flex-column align-items-center footer-item"
+          >
+            <img
+              src="../src/assets/images/mmdicon.png"
+              class="img-fluid w-85"
+            />
+            <h3 class="text-corel mt-3">MMD</h3>
+          </div>
+          <div class="categories footer-item">
+            <h5 class="foot-title">All Categories</h5>
+            <a href="#" class="">Grocery </a>
+            <a href="#" class="">Garment</a>
+            <a href="#" class="">Food</a>
+          </div>
+          <div class="categories footer-item">
+            <h5 class="foot-title">My Account</h5>
+            <a href="#" class="">My Order </a>
+            <a href="#" class="">Wishlist</a>
+            <a href="#" class="">Payment Methods</a>
+            <a href="#" class="">Address</a>
+            <a href="#" class="">Account Details</a>
+          </div>
+          <div class="categories footer-item">
+            <h5 class="foot-title">Help & Support</h5>
+            <a href="#" class=""> About Us </a>
+            <a href="#" class="">FAQ</a>
+            <a href="#" class="">Term & Condition</a>
+            <a href="#" class=""> Privacy Policy</a>
+            <a href="#" class="">Forget Password</a>
+            <a href="#" class="">Delivery Policy</a>
+          </div>
+          <div class="categories footer-item">
+            <h5 class="foot-title">Contact us</h5>
+            <p class="text-nowrap">Whatsapp num. :<b>1234567890</b></p>
+            <p class="text-nowrap">call Us. : <b>1234567890</b></p>
+            <img
+              src="../src/assets/images/footer/social-media-1.svg"
+              class="w-50"
+            />
+            <div class="d-flex align-items-center gap-2 mt-3">
+              <img
+                src="../src/assets/images/footer/social-media-3.svg"
+                class="mb-0"
+              />
+              <img
+                src="../src/assets/images/footer/social-media-3.svg"
+                class="mb-0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script tybe="bundle" src="./js/app.js"></script>
+  </body>
+</html>
